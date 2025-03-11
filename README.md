@@ -22,4 +22,4 @@ This project is licensed under the MIT License.
 
 ## Contributions
 
-Feel free to contribute by submitting a pull request or report issues.
+Feel free to contribute by submitting a pull request or reporting issues.
