@@ -14,7 +14,7 @@ A sample is provided as `config.py.sample` in the ' `src` folder. directions are
 `python3 -m pip install -r requirements.txt`
 
 ## Usage 
-`python3 main.py`
+`python3 src/main.py`
 
 ## License
 
