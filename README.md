@@ -7,7 +7,7 @@ Heads-up display for your local train station designed for terminal display or a
 MTAPI is a python app designed to run under Python 3.3+.
 
 ##### 1. Create a `config.py` file. 
-A sample is provided as `config.py.sample` in the ' `src` folder. directions are provided inside the sample file
+A sample is provided as `config.py.sample` in the `src` folder. directions are provided inside the sample file
 ##### 2. Set up your environment and install dependencies.  
 `python3 -m venv .venv`  
 `source .venv/bin/activate`  
