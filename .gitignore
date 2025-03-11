@@ -24,7 +24,3 @@ Thumbs.db
 
 # Ignore environment configuration files
 config.py
-
-# Ignore dependencies (if using pip freeze)
-requirements.txt
-
