@@ -1,0 +1,18 @@
+# Example data provided, please replace with your station / lines
+
+# find your URLS here:
+# https://api.mta.info/#/subwayRealTimeFeeds
+FEED_URLS = {
+    "M": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-bdfm",
+    "J": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-jz"
+}
+# Query your stop ids here:
+# https://data.ny.gov/Transportation/MTA-Subway-Stations/39hk-dx4f/explore/query/SELECT%0A%20%20%60gtfs_stop_id%60%2C%0A%20%20%60station_id%60%2C%0A%20%20%60complex_id%60%2C%0A%20%20%60division%60%2C%0A%20%20%60line%60%2C%0A%20%20%60stop_name%60%2C%0A%20%20%60borough%60%2C%0A%20%20%60cbd%60%2C%0A%20%20%60daytime_routes%60%2C%0A%20%20%60structure%60%2C%0A%20%20%60gtfs_latitude%60%2C%0A%20%20%60gtfs_longitude%60%2C%0A%20%20%60north_direction_label%60%2C%0A%20%20%60south_direction_label%60%2C%0A%20%20%60ada%60%2C%0A%20%20%60ada_northbound%60%2C%0A%20%20%60ada_southbound%60%2C%0A%20%20%60ada_notes%60%2C%0A%20%20%60georeference%60%0AORDER%20BY%20%60station_id%60%20ASC%20NULL%20LAST/page/filter
+STOP_IDS = {"M11S", "M11N"}  # Target stop IDs
+# transition stop IDs to human readable output
+STOP_ID_DIRECTION = {
+    "M11S": "Manhattan",
+    "M11N": "Queens"
+}
+# max time for 
+TIME_RANGE = 60 * 60  # 60 minutes in seconds
